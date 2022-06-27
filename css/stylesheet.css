@@ -10,7 +10,7 @@ body {
 .top {
 	position: relative;
 	height: 600px;
-	background-image: url(/img/notepc.jpg);
+	background-image: url("img/notepc.jpg");
 	background-repeat: repeat;
 	background-size: cover;
 	background-position: center top;
@@ -182,7 +182,7 @@ body {
 }
 
 .nagare {
-	background-image: url(/img/town.jpg);
+	background-image: url("img/town.jpg");
 	background-size: cover;
 }
 
