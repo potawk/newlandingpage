@@ -1,0 +1,395 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.top {
+	position: relative;
+	height: 600px;
+	background-image: url(/img/notepc.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center top;
+	display: block;
+}
+
+#top-image {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.child1 {
+	position: absolute;
+	top: 30%;
+	font-family: 'Noto Serif JP', serif;
+	color: white;
+	font-size: 50px;
+	text-shadow: 3px 0 0 black,
+	0 3px 0 black,
+	-3px 0 0 black,
+	0 -3px 0 black;
+}
+
+.child2 {
+	position: absolute;
+	top: 70%;
+	color: black;
+	font-size: 30px;
+	text-shadow: 1px 0 0 white,
+	0 1px 0 white,
+	-1px 0 0 white,
+	0 -1px 0 white;
+}
+
+.card-text {
+	color: white;
+	font-size: 50px;
+	text-shadow: 3px 0 0 black,
+	0 3px 0 black,
+	-3px 0 0 black,
+	0 -3px 0 black;
+}
+
+.card-title {
+	color: black;
+	font-size: 30px;
+	text-shadow: 1px 0 0 white,
+	0 1px 0 white,
+	-1px 0 0 white,
+	0 -1px 0 white;
+}
+
+.topshita {
+	background-color: white;
+}
+
+.btn {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#btn1 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.kaiketsu {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+}
+
+.skill {
+	font-size: 35px;
+	font-weight: bold;
+	border-left: 5px solid black;
+	color: black;
+	padding-top: 20px;
+}
+
+@media(max-width: 768px) {
+	.skill {
+		border-right: 5px solid black;
+	}
+}
+
+.omakase {
+	font-size: 30px;
+	text-align: center;
+	color: red;
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	margin-bottom: 40px;
+}
+
+.omakase1 {
+	font-size: 30px;
+	font-weight: bold;
+	border: 3px solid black;
+}
+
+.consult {
+	border-right: 5px solid black;
+	padding: 0;
+}
+
+@media(max-width: 768px) {
+	.consult {
+		border-left: 5px solid black;
+	}
+}
+
+.left {
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+@media(max-width: 768px) {
+	.left {
+		border-right: 2px solid black;
+	}
+}
+
+.right {
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 0;
+}
+
+@media(max-width: 768px) {
+	.right {
+		border-left: 2px solid black;
+	}
+}
+
+.three {
+	margin-bottom: 20px;
+	color: black;
+}
+
+.three p {
+	font-size: 25px;
+}
+
+.three1 {
+	padding-top: 40px;
+}
+
+.three1 h2 {
+	color: blue;
+}
+
+.slide img {
+	margin: auto;
+}
+
+.grid {
+	height: 100px;
+	display: grid;
+	place-items: center;
+}
+
+.nagare {
+	background-image: url(/img/town.jpg);
+	background-size: cover;
+}
+
+.nagaretitle {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 20px;
+}
+
+.kobetsu {
+	color: white;
+	background-color: black;
+	margin-bottom: 20px;
+	height: 80px;
+	display: table;
+	width: 100%;
+}
+
+.kobetsu2 {
+	color: white;
+	background-color: black;
+	width: 400px;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.box2 {
+  width: 400px;
+  padding: 20px;
+  margin:0 20px 20px 0;
+  background: black;
+  color: #fff;
+  box-sizing:border-box;
+  text-align: center;
+  font-size: 40px;
+	margin: 0 auto;
+}
+
+.midashi {
+	font-size: 25px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.honbun {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+.honbun2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.koetitle {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.title {
+	text-decoration: underline;
+}
+
+.koe {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media(max-width:768px) {
+	.silet {
+		margin-top: 0px;
+	}
+}
+
+.support {
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding-top: 100px;
+}
+
+@media(max-width:768px) {
+	.support {
+		padding-top: 30px;
+	}
+}
+
+.last {
+	margin-top: 80px;
+}
+
+@media(max-width:768px) {
+	.last {
+		margin-top: 0px;
+	}
+}
+
+.fadeIn {
+  animation-name:fadeUpAnime;
+  animation-duration:2s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeRight {
+  animation-name:fadeRightAnime;
+  animation-duration:2s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+  
+@keyframes fadeRightAnime {
+  from {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+  
+  to {
+    opacity: 1;    
+    transform: translateX(0);
+  }
+}
+  
+
+.fadeInUpTrigger {
+  opacity: 0;
+}
+
+.koe1 {
+	background-color: skyblue;
+	padding-top: 20px;
+}
+
+.koe1 div .card {
+	background-color: skyblue;
+}
+
+.koe2 {
+	background-color: #9CAFB7;
+	clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+	padding-bottom: 20px;
+}
+
+.koe2 div .card {
+	background-color: #9CAFB7;
+}
+
+.man {
+	padding: 50px 0;
+}
+
+.woman {
+	padding: 50px 0;
+}
+
+@media(max-width:768px) {
+	.woman {
+		padding-top: 100px;
+		padding-bottom: 20px;
+	}
+}
+
+.voice {
+	font-size: 20px;
+}
+
+.support1 {
+	background-color: white;
+	margin: 0;
+}
+
+#sample01 {
+	width: 960px;
+	height: 50px;
+}
+
+.blink {
+	animation: blink 1s ease infinite;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.woman {
+	margin-bottom: 20px;
+}
